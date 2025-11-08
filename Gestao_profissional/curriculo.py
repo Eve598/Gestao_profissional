@@ -1,0 +1,16 @@
+print("Vamos criar seu mini curriculo!")
+
+nome = input("nome completo: ")
+email = input("e-mail profissional: ")
+telefone = input("telefone para contato: ")
+formação = input("formação atual: ")
+habilidades = input("liste 3 habilidades separadas por virgulas: ")
+objetivo = input("objetivo profissional: ")
+
+print("\n mini curriculo\n")
+print(f"nome {nome}")
+print(f"email {email}")
+print(f"telefone {telefone}")
+print(f"formação {formação}")
+print(f"habilidades {habilidades}")
+print(f"objetivo {objetivo}")
